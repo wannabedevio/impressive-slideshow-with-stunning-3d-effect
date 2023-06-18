@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>wannabedev.io - Impressive Slideshow with Stunning 3D Effect</title>
+		<meta name="description" content="Immerse yourself in a responsive and fullscreen slideshow that allows displaying content with impressive 3D, zoom, and text reveal effects." />
+		<meta name="keywords" content="responsive, fullscreen, slideshow, content, impressive, 3D, zoom, text reveal, effects" />
+		<meta name="author" content="Mirza Hodzic"/>
+		<link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJR1BPWFF0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-SJR1BPWFF0', {
+        page_path: window.location.pathname,
+      });
+    </script>
+  </head>
+  <body>
+    
+    <!-- wannabedev:loader START -->
+    <div class="loader">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- wannabedev:loader END -->
+
+    <!-- wannabedev:header START -->
+    <header>
+      <div class="header-inner">
+        <div class="logo">
+          <a href="https://wannabedev.io/"><span>wannabe</span>dev<img src="assets/img/icon-next.png" alt="next" /></a>
+        </div>
+        <div class="header-headline">
+          <p>C'est la vie</p>
+        </div>
+        <nav class="navigation">
+          <li><a href="https://wannabedev.io"><span>Home</span></a></li>
+          <li><a href="https://wannabedev.io/tutorials/impressive-slideshow-with-stunning-3d-effect"><span>Back to Article</span></a></li>
+        </nav>
+      </div>
+    </header>
+    <!-- wannabedev:header END -->
+
+    <!-- wannabedev:slideshow:navigation START -->
+    <nav id="nav">
+      <button id="prev" class="nav-item" data-increment="-1">
+        <img src="assets/img/icon-prev.png" alt="prev" />
+      </button>
+      <button id="next" class="nav-item" data-increment="1">
+        <img src="assets/img/icon-next.png" alt="next" />
+      </button>
+    </nav>
+    <!-- wannabedev:slideshow:navigation END -->
+
+    <!-- wannabedev:slideshow START -->
+    <section class="wannabedev-3d-carousel">
+      <div class="stage">
+        
+        <!-- wannabedev:slideshow:item START -->
+        <div class="item">
+          <div class="bcg" style="background-image: url(https://images.unsplash.com/photo-1553490038-143ef3ab2a98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1874&q=80);"></div>
+          <div class="content">
+            <div class="description">
+              <p class="description-target">1483 - 1843</p>
+            </div>
+            <div class="headline">
+              <h2 class="headline-target">Dream big</h2>
+            </div>
+            <div class="discover-more">
+              <a href="#" class="discover-more-target">Discover More</a>
+            </div>
+          </div>
+        </div>
+        <!-- wannabedev:slideshow:item END -->
+
+        <!-- wannabedev:slideshow:item START -->
+        <div class="item">
+          <div class="bcg" style="background-image: url(https://images.unsplash.com/photo-1551076191-7ff87d3ed219?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1831&q=80);"></div>
+          <div class="content">
+            <div class="description">
+              <p class="description-target">1723 - 1798</p>
+            </div>
+            <div class="headline">
+              <h2 class="headline-target">Pray bigger</h2>
+            </div>
+            <div class="discover-more">
+              <a href="#" class="discover-more-target">Discover More</a>
+            </div>
+          </div>
+        </div>
+        <!-- wannabedev:slideshow:item END -->
+
+        <!-- wannabedev:slideshow:item START -->
+        <div class="item">
+          <div class="bcg" style="background-image: url(https://images.unsplash.com/photo-1554268153-82883b82e8fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1874&q=80);"></div>
+          <div class="content">
+            <div class="description">
+              <p class="description-target">1845 - 1853</p>
+            </div>
+            <div class="headline">
+              <h2 class="headline-target">Keep going</h2>
+            </div>
+            <div class="discover-more">
+              <a href="#" class="discover-more-target">Discover More</a>
+            </div>
+          </div>
+        </div>
+        <!-- wannabedev:slideshow:item END -->
+
+      </div>
+    </section>
+    <!-- wannabedev:slideshow END -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/demo.js"></script>
+
+  </body>
+</html>
