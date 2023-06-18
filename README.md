@@ -2,7 +2,7 @@
 
 Immerse yourself in a responsive and fullscreen slideshow that allows displaying content with impressive 3D, zoom, and text reveal effects.
 
-![Impressive Slideshow with Stunning 3D Effect](https://raw.githubusercontent.com/wannabedevio/demo-images/main/impressive-slideshow-with-stunning-3d-effect-new.png)
+![Impressive Slideshow with Stunning 3D Effect](https://raw.githubusercontent.com/MirzaHodzic/impressive-slideshow-with-stunning-3d-effect/main/assets/img/impressive-slideshow-with-stunning-3d-effect-new.png?token=GHSAT0AAAAAACDBRP4UYANFYOZK625GVELCZEPGPJA)
 
 [Article on WANNABEDEV](https://wannabedev.io/tutorials/impressive-slideshow-with-stunning-3d-effect/)
 
