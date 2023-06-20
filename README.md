@@ -6,7 +6,7 @@ Immerse yourself in a responsive and fullscreen slideshow that allows displaying
 
 [Article on WANNABEDEV](https://wannabedev.io/tutorials/impressive-slideshow-with-stunning-3d-effect/)
 
-[Demo](https://wannabedev.io/_posts/demo/impressive-slideshow-with-stunning-3d-effect)
+[Demo](https://www.wannabedev.io/_posts/impressive-slideshow-with-stunning-3d-effect/demo/index.html)
 
 ## Credits
 - Simple Loader by [loading.io](https://loading.io/css/)
